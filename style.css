@@ -1,0 +1,64 @@
+.body{
+    background: #00BFFF;
+}
+.nemo{
+    width: 100px;
+    height: 60px;
+    background-image: url(nemo.png);
+    position: absolute;
+    bottom: 0;
+}
+.tubarao{
+    width: 100px;
+    height: 100px;
+    background-image: url(tubarão.png);
+    position: absolute;
+    bottom: 0;
+}
+@keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+
+    to {
+        background-position: 0;
+    }    
+}
+.record{
+    font-family: Arial;
+    color: aquamarine;
+}
+.background{
+    position: absolute;
+    bottom: 0;
+    background-image: url(dory.jpg);
+    background-size: 100%;
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 400px;
+    border: #00BFFF;
+    border-radius: 20px;
+}
+.reiniciar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(-50%, -50%);
+    background-color: #00BFFF;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+.texto{
+    font-family: Arial;
+    text-align: center;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: darkturquoise;
+    
+}
