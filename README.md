@@ -5,3 +5,4 @@
 Jogo criado para desafio do BootCamp- Dio, baseado no filme infantil procurando nemo:  
 
 
+<img src="Previa.png">
